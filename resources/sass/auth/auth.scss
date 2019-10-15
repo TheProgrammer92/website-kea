@@ -1,0 +1,39 @@
+body{
+    /*background:url(../../../public/img/image/login.jpg) center center /cover;*/
+}
+
+.navbar-brand.logo {
+    font-size: 47px;
+    color: white;
+    border: 3px solid white;
+    display: inline-block;
+
+    padding: 10px;
+    line-height: 37px;
+
+}
+
+.navbar-brand.logo:hover{
+    color:white;
+}
+
+
+.headerLogin{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    margin-top:15px;
+
+
+
+}
+
+
+.navbar-light .nav-item .nav-link{
+    color:white;
+}
+.navbar-light .nav-item .nav-link.active{
+    color:white;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:#007bff;
+}

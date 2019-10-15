@@ -1,0 +1,49 @@
+.formLogin{
+    background-color:white;
+    width:35%;
+    border:1px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.formLogin{
+    input{
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        outline:none;
+        padding:0;
+        font-size:12px;
+    }
+}
+
+.form-control:focus{
+    box-shadow:unset;
+}
+
+
+.form-group{
+    width:80%;
+    margin:auto;
+}
+
+.goToRegister{
+
+    background-color:#0069d9;
+    width: 100%;
+
+    margin:auto;
+    text-align:center;
+    color:white;
+
+
+    span{
+        margin: 15px auto;
+        text-align:center;
+
+        a{
+            text-decoration:underline;
+            color:white
+        }
+    }
+}

@@ -1,0 +1,29 @@
+
+body{
+
+    margin:0;
+    padding:0;
+    background-color:white;
+}
+
+
+.container-home{
+    width:calc(100% - 280px);
+    height: 100%;
+    padding:15px 20px;
+
+    float:right;
+
+}
+
+
+@media(min-width:1200px){
+
+    .container-home .container{
+
+        max-width:1330px;
+    }
+}
+
+
+@import "responsive";
