@@ -1,6 +1,10 @@
 <template>
 
-    <div class="w-100 row">
+    <div class="w-100 row mt-4">
+
+        <div class="container">
+
+
 
 
         <b-row class="w-100" v-for="(tab,index) in tabRecentProduct"  :key="index">
@@ -12,12 +16,13 @@
             <b-row aligh-h="center" >
 
 
-              <h2 >Nature and Culture</h2>
+              <h1 >Nos différents membres</h1>
 
            </b-row>
 
             <br>
-            <b-row align-h="center"  >
+            <br>
+            <b-row align-h="center" class="mt-4"  >
                 <b-card-group deck class="mb-4">
 
 
@@ -25,8 +30,8 @@
 
 
 
-                        <b-card  @click="insertStokage(element)" :title="element.title"
-                                :img-src="pathHorloge + element.image"
+                        <b-card  @click="insertStokage(element)" :title="element.name"
+                                :img-src="pathMontre + element.image"
                                 img-alt="Image"
                                 img-top
                                 tag="article"
@@ -37,7 +42,11 @@
                             <p class="card-text">
                                  {{element.description}}
                             </p>
-                            <b-button href="#" variant="primary">Acheter</b-button>
+
+                            <button class="btn btn-orange">
+                                Voir plus
+                            </button>
+
                         </b-card>
                     </router-link>
 
@@ -49,6 +58,7 @@
         </b-row>
 
 
+    </div>
     </div>
 
 </template>

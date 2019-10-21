@@ -1,0 +1,36 @@
+
+.even-coming {
+
+    background:#d8aa46;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding-top: 100px;
+h1{
+    color:white;
+    text-align:center;
+}
+    .txt-event {
+        text-align: center;
+    }
+    p {
+        font-size: 18px;
+    }
+    align-items: center;
+    .list-even {
+        margin-top: 55px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .list-even-card {
+            display: flex;
+            flex-direction:column;
+            width:32%;
+            text-align: center;
+             i {
+                 font-size: 6rem;
+             }
+        }
+    }
+}

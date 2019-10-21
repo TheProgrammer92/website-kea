@@ -1,0 +1,70 @@
+
+
+body{
+
+    margin:0;
+    padding:0;
+    background-color:white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: Merriweather, serif;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #888888;
+}
+
+
+.container-home{
+    width:calc(100% - 280px);
+    height: 100%;
+    padding:15px 20px;
+
+    float:right;
+
+}
+.container {
+
+    max-width: 1250px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1 {
+    font-size: 2rem;
+}
+
+h1,h2,h3,h4 {
+
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.35;
+    letter-spacing: 0em;
+    text-align: inherit;
+
+}
+h4 {
+
+    font-size: 1.6rem;
+}
+p {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: $main-color;
+    border-color: $main-color;
+    color:white;
+}
+
+.btn  {
+    @apply   text-white font-bold py-2 px-4 rounded;
+    background-color: $main-color;
+    color:white;
+    border-color:$main-color;
+    margin-top: 15px;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}

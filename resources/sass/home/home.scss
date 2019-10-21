@@ -1,6 +1,8 @@
 
-
-
+@import './modules/home-video.scss';
+@import "./modules/even-coming.scss";
+@import "./modules/home-service";
+@import "./modules/home-contact";
 .carousel-item:nth-child(1) img {
 
     float:left;

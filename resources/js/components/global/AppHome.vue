@@ -11,7 +11,7 @@
         </transition>
 
         <div class="container-home">
-            <b-container>
+
 
                 <header-component></header-component>
                 <br>
@@ -24,7 +24,7 @@
            <!--     <main-home-component></main-home-component>-->
 
                 <footer-component></footer-component>
-            </b-container>
+
 
 
 
@@ -79,6 +79,8 @@
             $(document).ready(function () {
                 $('body').css('background', 'white')
             })
+
+            this.closeSidebar()
 
         }
     }

@@ -9,7 +9,7 @@
 
                 <b-row class="logoDiv" align-h="center">
 
-                    <a class="navbar-brand logo" href="/">HORLOGIZ</a>
+                    <a class="navbar-brand logo" href="/">KEA AFRICA</a>
 <!--
                     <img :src="pathImg + 'logo.jpg'" alt="" width="50" height="50">
 -->
@@ -21,9 +21,9 @@
 
                 <b-nav vertical class="w-100">
                     <b-nav-item  active :to="{name: 'home'}">ACCUEIL</b-nav-item>
-                    <b-nav-item :to="{name: 'showCommand'}">ACHETER</b-nav-item>
-                    <b-nav-item>MARK & SHOP</b-nav-item>
-                    <b-nav-item>A PROPOS</b-nav-item>
+                    <b-nav-item :to="{name: 'showCommand'}">MESSENGER</b-nav-item>
+                    <b-nav-item>ANNONCE</b-nav-item>
+                    <b-nav-item>PROFIL</b-nav-item>
                     <b-nav-item>THE PROGRAMMER</b-nav-item>
 
                     <b-nav-item :to="{name:'auth'}">LOGIN</b-nav-item>
