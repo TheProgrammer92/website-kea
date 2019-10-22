@@ -87,5 +87,3 @@
 
     }
 </script>
-
-<style lang="scss" src="../../../sass/buys/showCommand.scss"></style>

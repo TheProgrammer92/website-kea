@@ -48,5 +48,5 @@
 </style>
 
 
-<style src="../../../sass/global/sidebarComponent.scss" scoped></style>
+
 

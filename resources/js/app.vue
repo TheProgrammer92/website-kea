@@ -51,4 +51,4 @@
     }
 </script>
 
-<style lang="scss" src="../sass/app.scss" ></style>
+

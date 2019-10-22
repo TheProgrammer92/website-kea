@@ -86,7 +86,7 @@
     }
 </script>
 
-<style lang="scss" src="../../../sass/global/AppHome.scss" ></style>
+
 
 <style>
 

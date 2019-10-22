@@ -62,4 +62,3 @@
     }
 </script>
 
-<style lang="scss" src="../../../sass/global/headerComponent.scss"  scoped></style>

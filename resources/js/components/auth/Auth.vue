@@ -48,6 +48,3 @@
 </script>
 
 
-<style lang="scss" src="../../../sass/auth/auth.scss" >
-
-</style>

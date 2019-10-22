@@ -99,7 +99,3 @@
         }
     }
 </script>
-
-<style lang="scss" src="../../../../sass/auth/component/login.scss">
-
-</style>

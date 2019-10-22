@@ -104,4 +104,4 @@
     }
 </script>
 
-<style scoped lang="scss" src="../../../sass/global/recentProduct.scss"></style>
+
