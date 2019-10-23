@@ -10022,7 +10022,7 @@ body {
 .container-home {
   width: calc(100% - 280px);
   height: 100%;
-  padding: 15px 20px;
+  padding: 0px 0;
   float: right;
 }
 
@@ -10299,6 +10299,41 @@ p {
 
 .footer .main-footer i {
   color: #d8aa46;
+}
+
+.video .text-header-home {
+  color: white;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.video .section-list-video {
+  margin: 15px auto;
+}
+
+.video .section-list-video .list-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.video .section-list-video .list-video .card-video {
+  margin-right: 17px;
+  width: 18rem;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
 @media (min-width: 640px) {

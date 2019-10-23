@@ -14,7 +14,7 @@
 
 
                 <header-component></header-component>
-                <br>
+
 
                 <transition name="fade">
 

@@ -1,0 +1,36 @@
+.video {
+
+.text-header-home {
+
+    color:white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+    .section-list-video {
+        margin:15px auto;
+        .list-video {
+
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 15px;
+
+            .card-video {
+
+                margin-right: 17px;
+                width:18rem;
+                margin-top: 15px;
+                cursor:pointer;
+            }
+
+        }
+
+
+    }
+
+
+}

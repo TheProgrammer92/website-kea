@@ -2,16 +2,18 @@ import VueRouter from 'vue-router'
 
 
 
-const appHome = require('../AppHome.vue');
-const auth = require('../../auth/Auth.vue');
+const appHome = require('../components/global/AppHome.vue');
+const auth = require('../components/auth/Auth.vue');
 
 
 
 //children component
-const mainHome = require('../../home/component/mainHomeComponent.vue');
-const showCommand = require('../../buy/showCommand.vue');
- const login = require('../../auth/component/login.vue');
- const register = require('../../auth/component/register.vue');
+const mainHome = require('../components/home/component/mainHomeComponent.vue');
+const showCommand = require('../components/buy/showCommand.vue');
+ const login = require('../components/auth/component/login.vue');
+ const register = require('../components/auth/component/register.vue');
+ const video = require('../components/video/video');
+ const videoPlay = require('../components/video/videoPlay');
 
 const routes=[
 
@@ -32,6 +34,17 @@ const routes=[
                 path:'/article/command',
                 component:showCommand,
                 name:'showCommand'
+            },
+            {
+
+                path:'/video',
+                component:video,
+                name:'video'
+            },
+            {
+                path:'/videoPlay',
+                component:videoPlay,
+                name:'videoPlay'
             }
 
         ]
