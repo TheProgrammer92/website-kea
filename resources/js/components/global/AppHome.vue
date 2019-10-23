@@ -13,8 +13,7 @@
         <div class="container-home">
 
 
-                <header-component></header-component>
-
+<header-search></header-search>
 
                 <transition name="fade">
 
@@ -37,6 +36,7 @@
 <script>
     import mainHomeComponent from './../../components/home/component/mainHomeComponent.vue'
     import footerComponent from '../global/footerComponent.vue';
+    import headerSearch from '../global/headerSearch'
     export default {
         data( ) {
 
@@ -48,7 +48,8 @@
         },
         components: {
             mainHomeComponent,
-            footerComponent
+            footerComponent,
+            headerSearch
         },
 
         watch: {

@@ -1,0 +1,130 @@
+$color-white-gray:#f6f7f9;
+$color-black: var(--i1d, #262626);
+.header-search{
+
+
+    position: fixed;
+    width:100% ;
+    min-height:80px;
+    z-index: 150000;
+    padding:20px 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+    .div_search_musics {
+
+        display: flex;
+
+        align-items: center;
+        position:relative;
+        margin-bottom: 20px;
+        width:30%;
+
+        input {
+
+
+
+            height:40px;
+            width:100%;
+            border:1px solid #3498db
+
+        }
+
+        .search_icon {
+
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 40px;
+            line-height: 40px;
+            background-color: #3498db;
+            border-radius: 0px 5px 5px 0px;
+            padding: 0px 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+
+
+            i {
+
+                color:white;
+            }
+        }
+    }
+
+    nav {
+
+        margin-left:auto;
+        margin-right:50px;
+
+
+        a {
+
+            text-decoration: none;
+
+            color:$color-black;
+
+            margin:15px;
+            font-size: 1.2rem;
+        }
+    }
+
+
+
+
+    .list {
+        position: absolute;
+        top: 80px;
+        background: white;
+        width: 100%;
+        display: none;
+
+
+        ul {
+            list-style-type: none;
+            padding:0;
+        }
+
+        ul li {
+            margin:0 0 10px 0;
+            padding: 5px 10px;
+
+
+            .result {
+                display:flex;
+
+                img {
+                    width:50px;
+                    height:50px;
+                }
+
+                h3{
+                    font-size: 1.05rem;
+                }
+
+                div {
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        ul li:hover {
+            cursor:pointer;
+            background:$color-white-gray;
+
+
+        }
+    }
+
+
+}
+
+
+
+@media (min-width: 640px) {
+
+
+}
+
