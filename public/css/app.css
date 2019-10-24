@@ -619,27 +619,27 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 100px) {
   .container {
-    max-width: 640px;
+    max-width: 100px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .container {
-    max-width: 768px;
+    max-width: 769px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .container {
-    max-width: 1024px;
+    max-width: 992px;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 1280px;
+    max-width: 1200px;
   }
 }
 
@@ -10020,7 +10020,7 @@ body {
 }
 
 .container-home {
-  width: calc(100% - 280px);
+  width: 100%;
   height: 100%;
   padding: 0px 0;
   float: right;
@@ -10102,7 +10102,6 @@ p {
           align-items: center;
   position: relative;
   margin-bottom: 20px;
-  width: 30%;
 }
 
 .header-search .div_search_musics input {
@@ -10134,7 +10133,6 @@ p {
 }
 
 .header-search nav {
-  margin-left: auto;
   margin-right: 50px;
 }
 
@@ -10185,6 +10183,62 @@ p {
 .header-search .list ul li:hover {
   cursor: pointer;
   background: #f6f7f9;
+}
+
+@media (min-width: 100px) {
+  .header-search-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .header-search-content .div_search_musics {
+    width: 100%;
+  }
+
+  .header-search-content .list-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .header-search .list-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    margin-left: 60px;
+  }
+
+  .header-search .header-search-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .header-search .header-search-content .div_search_musics {
+    width: 30%;
+  }
 }
 
 .home-video {
@@ -10244,7 +10298,7 @@ p {
   margin-top: 8px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 100px) {
   .home-video {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -10264,7 +10318,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .home-video {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -10361,13 +10415,13 @@ p {
       flex-wrap: wrap;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 100px) {
   .home-service .card-service {
     margin: 10px auto;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .home-service .card-service {
     margin: 10px 49px 10px 0;
   }
@@ -10494,7 +10548,38 @@ p {
   cursor: pointer;
 }
 
-@media (min-width: 640px) {
+.profil {
+  margin: 150px  0px;
+}
+
+.profil .profil-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profil .profil-info img {
+  height: 250px;
+  width: 250px;
+  border-radius: 161px;
+}
+
+.profil .profil-info h1, .profil .profil-info p {
+  color: white;
+  margin-top: 10px;
+}
+
+@media (min-width: 100px) {
   .sm\:sr-only {
     position: absolute;
     width: 1px;
@@ -19858,7 +19943,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .md\:sr-only {
     position: absolute;
     width: 1px;
@@ -29222,7 +29307,7 @@ p {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .lg\:sr-only {
     position: absolute;
     width: 1px;
@@ -38586,7 +38671,7 @@ p {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .xl\:sr-only {
     position: absolute;
     width: 1px;

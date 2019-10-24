@@ -15,6 +15,7 @@ const showCommand = require('../components/buy/showCommand.vue');
  const video = require('../components/video/video');
  const videoPlay = require('../components/video/videoPlay');
  const actus = require('../components/actus/actus');
+ const profil = require('../components/profil/profil.vue');
 
 const routes=[
 
@@ -47,11 +48,17 @@ const routes=[
                 component:videoPlay,
                 name:'videoPlay'
             }
-,
+
+            ,
             {
                 path:'/actus',
                 component:actus,
                 name:'actus'
+            }  ,
+            {
+                path:'/profil',
+                component:profil,
+                name:'profil'
             }
 
         ]

@@ -1,0 +1,28 @@
+
+.profil {
+
+    margin:150px  0px;
+
+
+    .profil-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+       img {
+
+           height: 250px;
+           width: 250px;
+           border-radius: 161px
+       }
+
+        h1,p {
+
+            color:white;
+            margin-top: 10px;
+
+        }
+    }
+}
+

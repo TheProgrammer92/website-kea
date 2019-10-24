@@ -13,16 +13,16 @@
         <div class="container-home">
 
 
-<header-search></header-search>
+            <header-search></header-search>
 
-                <transition name="fade">
+            <transition name="fade">
 
 
-                    <router-view></router-view>
-                </transition>
-           <!--     <main-home-component></main-home-component>-->
+                <router-view></router-view>
+            </transition>
+            <!--     <main-home-component></main-home-component>-->
 
-                <footer-component></footer-component>
+            <footer-component></footer-component>
 
 
 
@@ -40,10 +40,10 @@
     export default {
         data( ) {
 
-             return {
+            return {
 
-                 isOpenSidebar: true
-             }
+                isOpenSidebar: true
+            }
 
         },
         components: {
@@ -62,7 +62,7 @@
 
                 }
                 else{
-                    $('.container-home').css('width','calc(100%)')
+                    $('.container-home').css('width','calc(100% - 280px)')
 
 
                 }
@@ -71,10 +71,10 @@
 
         methods: {
 
-          closeSidebar: function(){
+            closeSidebar: function(){
 
-              this.isOpenSidebar = !this.isOpenSidebar;
-          }
+                this.isOpenSidebar = !this.isOpenSidebar;
+            }
         },
         created() {
             $(document).ready(function () {

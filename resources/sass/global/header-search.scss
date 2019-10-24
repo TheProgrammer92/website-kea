@@ -19,7 +19,7 @@ $color-black: var(--i1d, #262626);
         align-items: center;
         position:relative;
         margin-bottom: 20px;
-        width:30%;
+       ;
 
         input {
 
@@ -56,7 +56,7 @@ $color-black: var(--i1d, #262626);
 
     nav {
 
-        margin-left:auto;
+
         margin-right:50px;
 
 
@@ -122,9 +122,74 @@ $color-black: var(--i1d, #262626);
 }
 
 
+@screen sm {
 
-@media (min-width: 640px) {
+    .header-search {
 
 
+        }
+
+
+
+    .header-search-content {
+
+        display:flex;
+        flex-direction: column;
+        .div_search_musics{
+
+            width:100%;
+        }
+
+        .list-link {
+
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            margin-left:0;
+
+            a {
+
+
+            }
+
+
+    }
+
+    }
+}
+
+
+
+@screen md {
+.header-search {
+
+    .list-link {
+
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-left:60px;
+
+        a {
+
+
+        }
+    }
+
+    .header-search-content {
+
+        display:flex;
+        flex-direction: row;
+
+        .div_search_musics{
+
+            width:30%;
+        }
+
+
+    }
+
+}
 }
 

@@ -5,23 +5,29 @@
 
     <header class="header-search sm:bg-dark">
 
-        <div class="container">
+        <div class="container  header-search-content">
 
             <div class="float-left  div_search_musics">
-
+                <span class="mr-8"><img :src="pathIcone + 'images.png'" alt="close sidebar" width="50" height="50" class="img-close-sidebar" @click.prevent="closeSidebar"></span>
                 <b-form-input  placeholder="Enter your name" class="input_search"></b-form-input>
                 <span class="search_icon" >
                     <i class="material-icons">search</i></span>
             </div>
 
-            <nav class="float-right">
+            <nav class="float-right nav-content">
+                <i class="material-icons float-right pointer"  v-if="!isHeader" @click.prevent="closeHeader">vertical_align_bottom
+                </i>
+              <div class=" list-link h-full">
 
+                  <router-link   :to="{name:'home'}" v-if="isHeader">  Accueil </router-link>
+                  <router-link   :to="{name:'video'}"  v-if="isHeader" >  Video </router-link>
+                  <router-link   :to="{name:'video'}" v-if="isHeader" >  Annonces</router-link>
+                  <router-link   :to="{name:'actus'}"  v-if="isHeader">  Actualités</router-link>
+                  <router-link   :to="{name:'video'}" v-if="isHeader">Messagerie   </router-link>
+                  <router-link   :to="{name:'profil'}" v-if="isHeader">profil     <i class="material-icons float-right md:invisible  sm:visible"  @click.prevent="closeHeader" v-if="isHeader">close</i>
+                  </router-link>
 
-                <router-link   :to="{name:'home'}">  Accueil </router-link>
-                <router-link v :to="{name:'video'}">  Video </router-link>
-                <router-link   :to="{name:'video'}">  Annonces</router-link>
-                <router-link   :to="{name:'actus'}">  Actualités</router-link>
-                <router-link   :to="{name:'video'}">Messagerie   </router-link>
+              </div>
 
 
             </nav>
@@ -45,7 +51,7 @@
 
         data() {
             return {
-
+                isHeader:true,
 
                 liens: [
                     {
@@ -69,7 +75,32 @@
         },
 
 
+        methods: {
 
+            closeSidebar: function() {
+
+
+                this.$parent.closeSidebar()
+
+
+
+
+            },
+
+            closeHeader:function () {
+
+                if(this.isHeader) {
+
+                    $('.nav-content').animate({'height':'15px'},500)
+                }
+             else {
+
+                    $('.nav-content').animate({'height':'100%'},500)
+                }
+                this.isHeader=!this.isHeader
+
+            }
+        },
 
         mounted() {
 

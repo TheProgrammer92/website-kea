@@ -8,6 +8,8 @@
             <div class="sidebar">
 
                 <b-row class="logoDiv" align-h="center">
+                    <span class="ml-auto" style="margin-right:15px;">
+                        <img :src="pathIcone + 'images.png'" alt="close sidebar" width="50" height="50" class="img-close-sidebar" @click.prevent="closeSidebar"></span>
 
                     <a class="navbar-brand logo" href="/">KEA AFRICA</a>
 <!--
@@ -46,6 +48,25 @@
         animation: lightSpeedOut .5s;
     }
 </style>
+
+<script>
+
+    export default {
+
+        methods: {
+
+            closeSidebar: function () {
+
+
+                this.$parent.closeSidebar()
+
+
+            }
+
+        }
+
+    }
+</script>
 
 
 <style src="../../../sass/global/sidebarComponent.scss" scoped></style>
