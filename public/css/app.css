@@ -10202,10 +10202,6 @@ p {
           align-items: center;
 }
 
-.home-video .text-home-video {
-  width: 40%;
-}
-
 .home-video .text-home-video ul {
   maring: 20px;
   list-style: square;
@@ -10216,7 +10212,6 @@ p {
 }
 
 .home-video .video-home-video {
-  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10247,6 +10242,43 @@ p {
 
 .home-video .video-home-video .text-home-video ul li {
   margin-top: 8px;
+}
+
+@media (min-width: 640px) {
+  .home-video {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .home-video .text-home-video {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-bottom: 15px;
+  }
+
+  .home-video .video-home-video {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-video {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .home-video .text-home-video {
+    width: 40%;
+  }
+
+  .home-video .video-home-video {
+    width: 60%;
+  }
 }
 
 .even-coming {
@@ -10329,8 +10361,16 @@ p {
       flex-wrap: wrap;
 }
 
-.home-service .main-service .card-service {
-  margin-right: 49px;
+@media (min-width: 640px) {
+  .home-service .card-service {
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-service .card-service {
+    margin: 10px 49px 10px 0;
+  }
 }
 
 .home-contact {

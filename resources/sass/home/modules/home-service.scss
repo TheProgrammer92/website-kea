@@ -15,8 +15,24 @@
         display: flex;
         flex-wrap: wrap;
 
+
+    }
+}
+
+@screen sm {
+    .home-service {
+
         .card-service {
-            margin-right:49px;
+            margin:10px auto;
+        }
+    }
+}
+
+@screen md {
+    .home-service {
+
+        .card-service {
+            margin:10px 49px 10px 0;
         }
     }
 }

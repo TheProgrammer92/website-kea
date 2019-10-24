@@ -26,7 +26,7 @@
                 <b-card-group deck class="mb-4">
 
 
-                    <router-link v-for="element in tab" :key="element.id"   :to="{name:'showCommand', params:{elements:element}}" >
+                    <router-link class="sm:m-auto md:mr-4 md:ml-0" v-for="element in tab" :key="element.id"   :to="{name:'showCommand', params:{elements:element}}" >
 
 
 
