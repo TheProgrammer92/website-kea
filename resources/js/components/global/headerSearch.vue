@@ -23,7 +23,7 @@
                   <router-link   :to="{name:'video'}"  v-if="isHeader" >  Video </router-link>
                   <router-link   :to="{name:'video'}" v-if="isHeader" >  Annonces</router-link>
                   <router-link   :to="{name:'actus'}"  v-if="isHeader">  Actualités</router-link>
-                  <router-link   :to="{name:'video'}" v-if="isHeader">Messagerie   </router-link>
+                  <router-link   :to="{name:'messenger'}" v-if="isHeader">Messagerie   </router-link>
                   <router-link   :to="{name:'profil'}" v-if="isHeader">profil     <i class="material-icons float-right md:invisible  sm:visible"  @click.prevent="closeHeader" v-if="isHeader">close</i>
                   </router-link>
 
