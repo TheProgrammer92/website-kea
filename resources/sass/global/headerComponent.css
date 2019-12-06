@@ -1,0 +1,19 @@
+.headerPrincipal {
+  background-color: white;
+  margin: 0px 0;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.navbar {
+  padding: 0 1rem;
+}
+
+.img-close-sidebar {
+  /*
+    visibility: hidden;
+    */
+  cursor: pointer;
+}
+/*# sourceMappingURL=headerComponent.css.map */

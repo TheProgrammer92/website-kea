@@ -1,0 +1,19 @@
+.messagerie {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    position: static;
+    background: gray;
+    width: 210px;
+    height: 600px;
+}
+
+.messages-content{
+    border: 2px solid gray;
+    min-width: calc(100% - 210px);
+    padding: 5px;
+    margin: 5px;
+}
+

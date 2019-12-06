@@ -15,7 +15,7 @@
 
 
         ul {
-            maring:20px;
+            margin:20px;
             list-style:square;
         }
         ul li {
@@ -41,8 +41,8 @@
 
         .children-iframe {
             display: flex;
-            flex-wrap: wrap;
             margin-top:15px;
+            overflow-x: scroll;
 
 
             iframe {
@@ -85,18 +85,18 @@
 
     .home-video {
 
-        flex-direction: row;
+        flex-direction: column;
 
 
         .text-home-video {
 
-            width: 40%;
+            width: 100%;
 
         }
 
         .video-home-video {
 
-            width: 60%;
+            width: 100%;
 
         }
     }

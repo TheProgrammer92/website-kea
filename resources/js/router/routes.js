@@ -17,6 +17,8 @@ const showCommand = require('../components/buy/showCommand.vue');
  const actus = require('../components/actus/actus');
  const profil = require('../components/profil/profil.vue');
  const messenger = require('../components/messenger/messenger.vue');
+ const annonce = require('../components/annonce/annonce.vue');
+ const form = require('../components/actus/form.vue');
 
 const routes=[
 
@@ -54,7 +56,15 @@ const routes=[
             {
                 path:'/actus',
                 component:actus,
-                name:'actus'
+                name:'actus',
+
+                children : [
+                {
+                path:'/form',
+                component:form,
+                name:'form'
+                }
+            ]
             }  ,
             {
                 path:'/profil',
@@ -65,8 +75,14 @@ const routes=[
                 path:'/messenger',
                 component:messenger,
                 name:'messenger'
-            }
+            },
+            {
+                path:'/annonce',
+                component:annonce,
+                name:'annonce'
+            },
 
+        
         ]
 },
 

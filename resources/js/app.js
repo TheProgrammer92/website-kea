@@ -33,11 +33,11 @@ Vue.mixin({
     data(){
         return{
 
-            pathIcone:"https://zili.local/img/icone/",
-            pathImg:"https://zili.local/img/image/",
-            pathLogo:"https://zili.local/img/logo/",
-            pathMontre:"https://zili.local/img/image/montre/",
-            pathHorloge:"https://zili.local/img/image/horloge/",
+            pathIcone:"/img/icone/",
+            pathImg:"/img/image/",
+            pathLogo:"/img/logo/",
+            pathMontre:"/img/image/montre/",
+            pathHorloge:"/img/image/horloge/",
 
 
             tabProduct:  [

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,CAAC;EAEE,KAAK,EAAC,OAAO;CAChB;;AAED,AAAA,CAAC,AAAA,MAAM,CAAC;EAEJ,KAAK,EAAC,OAAO;EACb,eAAe,EAAE,IAAI;CACxB;;AAGD,AAAA,GAAG,CAAC;EAEA,YAAY,EAAE,0CAA0C,CAAC,EAAE,CAAG,IAAI,CAAC,KAAK;CAC3E",
+    "sources": [
+        "recentProduct.scss"
+    ],
+    "names": [],
+    "file": "recentProduct.css"
+}

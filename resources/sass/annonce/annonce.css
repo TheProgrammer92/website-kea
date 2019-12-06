@@ -1,0 +1,104 @@
+.annonce {
+  margin-top: 105px;
+}
+
+body {
+  font-family: 'ZCOOL XiaoWei', serif;
+  /* background:url('./mes\ images/image2.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.annonce-container {
+  width: 70%;
+  margin: auto;
+}
+
+.annonce-title {
+  margin: auto;
+  background-color: #e2e8f0;
+  margin-bottom: 50px;
+}
+
+.annonce-title h1 {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.ligne {
+  border: 2px solid #f59f00;
+  width: 15%;
+  margin: 3px auto 15px;
+  border-radius: 3px;
+}
+
+/* .card-img, .card-desc{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3) ;
+} */
+.card-title {
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  opacity: .7;
+  margin: 0;
+}
+
+.card-title h1 {
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  opacity: .9;
+  margin-bottom: 0;
+}
+
+.card-desc {
+  min-height: 100px;
+}
+
+.annonce-title h1 {
+  font-family: 'Acme', sans-serif;
+  opacity: .7;
+  margin: 0;
+}
+
+.card-desc h1 {
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Acme', sans-serif;
+  opacity: .7;
+  margin: 0;
+  font-size: 25px;
+}
+
+.card-desc p {
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin: 0;
+}
+
+.card-footer {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.card-footer p {
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin: 0;
+}
+
+.card-img img {
+  width: 100%;
+  height: 250px;
+}
+
+.temps {
+  float: right;
+}
+
+.like-comment {
+  float: left;
+}
+
+button.btn-blue {
+  background-color: #3498db;
+  color: white;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=annonce.css.map */

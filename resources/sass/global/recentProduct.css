@@ -1,0 +1,14 @@
+a {
+  color: initial;
+}
+
+a:hover {
+  color: initial;
+  text-decoration: none;
+}
+
+img {
+  -o-border-image: url("/media/examples/border-diamonds.png") 30/19px round;
+     border-image: url("/media/examples/border-diamonds.png") 30/19px round;
+}
+/*# sourceMappingURL=recentProduct.css.map */

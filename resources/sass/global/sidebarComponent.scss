@@ -3,14 +3,16 @@
     position:fixed;
     width:280px;
     height:100%;
+    /*
     background: url("../../../public/img/image/snow.jpg") center center /cover;
+    */
 
     z-index: 200000;
 
 }
 .sidebar{
     position:fixed;
-    background-color:rgba(48, 43, 42,0.7);
+    background-color:rgba(48, 43, 42,1);
     width: 280px;
     height: 100%;
     color:white;
@@ -19,9 +21,16 @@
     overflow-x:hidden;
     padding:25px 0;
 
+
+
 }
 
+.imgUser {
 
+    height: 145px;
+    width: 80%;
+    margin-top:15px;
+}
 .navbar-brand.logo {
      font-size: 35px;
      color: #fff;
@@ -38,7 +47,7 @@
     margin:auto;
 }
 .sidebar .nav-item{
-    margin:5px;
+    margin:0px;
      color:white;
 
 
@@ -47,9 +56,9 @@
 .nav-link{
 
     color:white;
-    margin-left: 50px;
+    margin-left: 11px;
 }
-.sidebar .nav-link::before{
+/*.sidebar .nav-link::before{
 
     content: '';
     display:inline-block;
@@ -57,7 +66,12 @@
     height:25px;
     margin-right: 12px;
     background:url('../../../public/img/icone/home5.png') center center/contain
-}
+}*/
 .navSidebar{
-    margin-top:70px;
+    margin-top:10px;
+
+    a {
+
+        margin-left: 0;
+    }
 }

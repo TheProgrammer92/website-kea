@@ -14,6 +14,9 @@
 
         <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <link rel="stylesheet" href="{{asset('css/animate.css')}}">
         <link rel="stylesheet" href="{{asset('css/materialize.css')}}">
@@ -31,7 +34,6 @@
     <body id="body">
 
         <div id="app">
-
             <App></App>
         </div>
 

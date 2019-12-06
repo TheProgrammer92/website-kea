@@ -18,7 +18,7 @@
                 >
                     <b-card-img :src="pathImg + 'afrique2.jpg'" alt="Image" bottom></b-card-img>
                     <template v-slot:footer>
-                        <small class="text-muted">Vous pouvez en faire plus !</small>
+                        <small class="text-muted"><button>s'inscrire</button></small>
                     </template>
 
                     <b-card>
@@ -31,9 +31,7 @@
 
                             <h5 class="mt-0">TheProgrammer annonce</h5>
                             <p>
-                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                                Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
-                                ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                Cras dd
                             </p>
                             <p>
                                 Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque

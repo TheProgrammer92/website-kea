@@ -4,3 +4,11 @@
 
 
 @import "../responsive";
+
+
+@media only screen and (max-width : 1055px){
+    body{
+        background: blue;
+    }
+    
+}
