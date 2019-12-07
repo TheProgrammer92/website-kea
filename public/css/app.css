@@ -10149,6 +10149,15 @@ p {
   font-size: 1.2rem;
 }
 
+.header-search .login .nav {
+  -ms-flex-wrap: initial;
+      flex-wrap: initial;
+}
+
+.header-search .login {
+  width: 20%;
+}
+
 .header-search .list {
   position: absolute;
   top: 80px;

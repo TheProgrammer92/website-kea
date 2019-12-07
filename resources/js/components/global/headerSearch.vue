@@ -67,6 +67,7 @@
           <li class="nav-item"><a class="nav-link " href="#"><router-link v-bind:to="'messenger'">Messagerie</router-link></a></li>
           <li class="nav-item"><a class="nav-link " href="#"><router-link v-bind:to="'profil'">Profil</router-link></a></li>
 
+
         </ul>
       </nav>
     </div>
@@ -74,6 +75,13 @@
     <div class="login">
         <nav>
         <ul class="nav">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link " href="#"  ><i class="material-icons prefix bluelog">chat_bubble_outline
+                </i></a>
+
+            </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons prefix bluelog">account_circle</i></a>
             <div class="dropdown-menu">
@@ -81,6 +89,7 @@
               <a class="dropdown-item" href="#">logout</a>
             </div>
           </li>
+
         </ul>
       </nav>
     </div>
