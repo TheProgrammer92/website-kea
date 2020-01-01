@@ -53,19 +53,91 @@
     <div class="container">
       <nav>
         <ul class="nav">
-        <li class="nav-item"><a class="nav-link " href="#"><router-link v-bind:to="'home'">Acceuil</router-link></a></li>
-        <li class="nav-item"><a class="nav-link " href="#"><router-link v-bind:to="'video'">Videos</router-link></a></li>
-        <li class="nav-item"><a class="nav-link " href="#"><router-link v-bind:to="'annonce'">Annonce</router-link></a></li>
+
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actualite</a>
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#"><router-link v-bind:to="'actus'">Actualite</router-link></a>
+              <a class="dropdown-item" href="/"><router-link v-bind:to="{name:'mainHome'}">Kéa</router-link></a>
+              <a class="dropdown-item" href="#">A la une</a>
+              <a class="dropdown-item" href="#">Promoteur</a>
+              <a class="dropdown-item" href="#">Services</a>
+            </div>
+          </li>
+
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/actus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Evennements
+
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/annonce"><router-link v-bind:to="{name:'annonce'}">Emission</router-link></a>
+              <a class="dropdown-item" href="#">Récents</a>
+              <a class="dropdown-item" href="#">Archives</a>
+            </div>
+          </li>
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/actus" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Actualités
+
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><router-link v-bind:to="{name:'actus'}">Actualités</router-link></a>
+              <a class="dropdown-item" href="#">Récents</a>
+              <a class="dropdown-item" href="#">Archives</a>
+            </div>
+          </li>
+
+
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Videos</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="/video"><router-link v-bind:to="'video'">Vidéos</router-link></a>
+
+                    </div>
+          </li>
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partenaires</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><router-link v-bind:to="'actus'">Partenaires</router-link></a>
+
+            </div>
+          </li>
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Librairies</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><router-link v-bind:to="'actus'">videoPlay</router-link></a>
+            </div>
+          </li>
+
+
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Messagerie</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/messenger"><router-link v-bind:to="'messenger'">Messagerie</router-link></a>
               <a class="dropdown-item" href="#">JavaScript</a>
               <a class="dropdown-item" href="#">PHP et MySQL</a>
             </div>
           </li>
-          <li class="nav-item"><a class="nav-link " href="#"><router-link v-bind:to="'messenger'">Messagerie</router-link></a></li>
-          <li class="nav-item"><a class="nav-link " href="#"><router-link v-bind:to="'profil'">Profil</router-link></a></li>
+
+
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">A propos</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><router-link v-bind:to="'actus'">Présentation</router-link></a>
+              <a class="dropdown-item" href="#">Promoteur</a>
+              <a class="dropdown-item" href="#">Application</a>
+            </div>
+          </li>
+
+
+
+
 
 
         </ul>
@@ -85,6 +157,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons prefix bluelog">account_circle</i></a>
             <div class="dropdown-menu">
+              <a class="dropdown-item" href="/profil">Mon Profil</a>
               <a class="dropdown-item" href="#">login</a>
               <a class="dropdown-item" href="#">logout</a>
             </div>

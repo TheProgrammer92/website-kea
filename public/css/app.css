@@ -10564,6 +10564,10 @@ p {
   margin-top: 20px;
 }
 
+.actus .list-annonce .card-body .card-img-bottom {
+  width: 50%;
+}
+
 .video .text-header-home {
   color: white;
   height: 100%;
@@ -11154,6 +11158,10 @@ button.btn-blue {
 .card-deck .card {
   margin-right: 7px;
   margin-left: 7px;
+}
+
+.container {
+  max-width: 1700px;
 }
 
 @media (min-width: 100px) {
